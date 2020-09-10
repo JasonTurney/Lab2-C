@@ -11,7 +11,7 @@
 
 int main(void) {
   char *user = readline("Enter your CMPSC 131 grade: ");
-  double user = atof(grade);
+  double grade = atof(user);
     if (grade >= 93.0) {
     printf("Your letter grade for CMPSC 131 is A.");
   }
