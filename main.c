@@ -39,5 +39,6 @@ int main(void) {
   if (grade < 60) {
     printf("Your letter grade for CMPSC 131 is F.");
   }
+  
   return 0;
 }
